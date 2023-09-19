@@ -126,7 +126,7 @@ function moveBall()
                     gameOver("top");
                     clearInterval(interval);
            }
-    },10
+    },5
     )
 }
 function moveRodLeft()
@@ -134,9 +134,9 @@ function moveRodLeft()
    for(var i=0;i<rods.length;i++)
    {
       var cordinates = rods[i].getBoundingClientRect();
-      if(cordinates.left-5>=0)
+      if(cordinates.left-10>=0)
       {
-      var left = cordinates.left - 5;
+      var left = cordinates.left - 10;
       rods[i].style.left= left+"px";
       //console.log(rods[i].style.left);
       }
@@ -150,7 +150,7 @@ function moveRodRight()
        //console.log(windowWidth);
        if(cordinates.right+5<=windowWidth)
        {
-       var right = cordinates.left + 5;
+       var right = cordinates.left + 10;
        rods[i].style.left= right+"px";
        //console.log(rods[i].style.left);
        }
