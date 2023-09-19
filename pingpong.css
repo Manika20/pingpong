@@ -1,0 +1,32 @@
+
+#rod1
+{
+    height: 3%;
+    width:15%;
+    top:0;
+    left:43%;
+    border-radius:6px;
+    background-color: blue;
+    position: absolute;
+
+}
+#rod2
+{
+    height: 3%;
+    width:15%;
+    top:97%;
+    left:43%;
+    position: absolute;
+    border-radius:6px;
+    background-color: red;
+}
+#ball
+{
+    height: 22px;
+    width:22px;
+    border-radius:50%;
+    background-color: yellow;
+    position:absolute;
+    top:94%;
+    left:50%;
+}
